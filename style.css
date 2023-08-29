@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
+/* global classes */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Acme', sans-serif;
+}
+
+body{
+    background-color: #2a077b;
+    color: white;
+}
+
+/* Side Specific  */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: #12003a;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 22px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: #ffff70;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.left{
+    font-size: 1.8rem;
+}
+
+.first-Section{
+   display: flex; 
+   justify-content: space-around;
+   align-items: center;
+   align-content: center;
+   margin-top: 50px;
+}
+.first-Section > div{
+    width: 30%;
+}
+
+.left-Section{
+    font-size: 3rem;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+.right-Section{
+ width: 80%;
+}
+
+/* Utility Classer */
+
+.my-name{
+    color: #c6aeff;
+}
+
+#element{
+    color: #c6aeff;
+}
